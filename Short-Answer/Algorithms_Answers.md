@@ -6,6 +6,6 @@ a) This snippet runs on linear time O(n). As the size of n increases, it takes o
 
 b) This snippert runs on logarithmic time O(logn). As the size of n increases, the number of computations to break out of the while loop is reduced by halve. It gets to a point where the numbers of inputs doesn't have much effect on the runtime.
 
-c)
+c) A typical recursion function runs on linear time O(n). For every increase in input n, the function has to recurse one more time until it reaches it's base case.
 
 ## Exercise II
