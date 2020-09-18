@@ -9,3 +9,11 @@ b) This snippert runs on logarithmic time O(logn). As the size of n increases, t
 c) A typical recursion function runs on linear time O(n). For every increase in input n, the function has to recurse one more time until it reaches it's base case.
 
 ## Exercise II
+
+The only thing we know is that building is n stories tall. We also know that eggs dropped off floor f or higher will get broken. Any eggs thrown below that, won't get broken.
+
+First take the midpoint of the building by diving the number of stores by 2.
+
+Anything below that number is safe to drop eggs from.
+
+This algorithm runs on constant time. No matter how big the number of n is (stores in a building), we will compute exactly 2 operations: taking the midpoint and saving the number of floors safe to throw from in a variable.
